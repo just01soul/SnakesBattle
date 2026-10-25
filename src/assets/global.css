@@ -1,1 +1,24 @@
 @import "tailwindcss";
+
+@theme {
+  --color-snake-bg: #0f172a;
+  --color-snake-grid: #1e293b;
+  --color-snake-grid-line: #334155;
+  --color-snake-head: #10b981;
+  --color-snake-body: #34d399;
+  --color-snake-food: #f43f5e;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-snake-bg);
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  color: #e2e8f0;
+}
